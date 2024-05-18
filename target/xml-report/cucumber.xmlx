@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="36.271" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="US0001 Kullanici Bimser anasayfasinda test yapar." name="TC01 Kullanici anasayfa ekranında yer alan üst alanlarin kontrolunu yapar." time="35.756">
+<failure type="org.openqa.selenium.support.ui.UnexpectedTagNameException" message="Element should have been &quot;select&quot; but was &quot;div&quot;
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.17'
+Driver info: driver.version: unknown">
+<![CDATA[org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.17'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:46)
+	at stepdefinitions.BimserStepdefinitions.dil_olarak_english_secilir(BimserStepdefinitions.java:88)
+	at ✽.Dil olarak English secilir.(file:///Users/yusuf/IdeaProjects/Bimser_Cucumber/src/test/resources/features/US0001_Bimser_Anasayfa.feature:14)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Kullanici "BimserUrl" adresi ile anasayfaya gider.....................passed
+And Bimser alanina tiklanir.................................................passed
+And Bimsere tiklandigi dogrulanir...........................................passed
+And Documentation alanina tiklanir..........................................passed
+And Bimser Blog alanina tiklanir............................................passed
+And Dil degisim alanina tiklanir............................................passed
+And Dil olarak English secilir..............................................failed
+And Dil alaninin hemen yaninde yer alan Bimser alanina tiklanir.............skipped
+Then karanlik ve aydınlik mod arasinda gecis yapilir........................skipped
+And sayfayi kapatir.........................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
